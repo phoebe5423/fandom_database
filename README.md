@@ -16,7 +16,7 @@ wincertstore==0.2
 
 ## Run
 
-``$ python manage.py runserver``
+``$ python manage.py runserver``  
 admin page http://localhost/admin/  
 user page http://localhost/about/  
 
@@ -46,10 +46,8 @@ Singers frequently attend concerts, TV shows, musicals, operas, and other kinds 
 Compared to other kinds of information, this information is not quite important, so everyone 
 except the users in the lv0_user group can edit them.  
 Lv0_user is a group for those who just join this system. They can only view the data. 
-
 Those data that only the admin user can edit won’t be present in the forestage. Users can only 
 create, edit, and delete by using admin pages.  
-
 
 For the Entertainer Group, this table is to record which singer belongs to what group. One singer 
 may belong to more than one group. However, it doesn’t make sense to show this table as a list.  
