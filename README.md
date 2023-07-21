@@ -1,7 +1,8 @@
 # fandom_database
 ## Install
 This project is based on Python3 and Django.  
-``$ pip install -r requirements\base.txt ``
+``$ pip install -r requirements\base.txt ``  
+
 asgiref==3.5.2  
 certifi==2022.12.7  
 Django==4.1  
