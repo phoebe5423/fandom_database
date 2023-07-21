@@ -1,5 +1,5 @@
 """
-WSGI config for ling_phoebe_final_project project.
+WSGI config for fandom_database project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "ling_phoebe_final_project.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "fandom_database.settings")
 
 application = get_wsgi_application()
